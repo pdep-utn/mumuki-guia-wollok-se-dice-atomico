@@ -1,0 +1,1 @@
+Se agrega la ciudad de Albuquerque a la región en donde estaba Springfield. Albuquerque tiene un río de caudal 150 l/s, y espacio para poner sólo una central. En estos momentos, la misma es hidroeléctrica. 
