@@ -6,4 +6,5 @@ beta: false
 teacher_info: ''
 language: wollok
 id_format: '%05d'
-order: []
+order:
+- 1
