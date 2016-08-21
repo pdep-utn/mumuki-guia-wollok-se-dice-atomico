@@ -1,0 +1,9 @@
+---
+name: Se dice atómico
+locale: es
+type: practice
+beta: false
+teacher_info: ''
+language: wollok
+id_format: '%05d'
+order: []
