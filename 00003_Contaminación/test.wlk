@@ -22,3 +22,12 @@ test "existe centralCarbon" {
 test "produccionEnergetica de centralCarbon es inicialmente 900.5 millones de kWh" {
   assert.equals(900.5, centralCarbon.produccionEnergetica())
 }
+
+
+test "existe springfield" {
+  springfield
+}
+
+test "inicialmente centralNuclear y centralCarbon son contaminantes" {
+  assert.equals(#{centralNuclear, centralCarbon}, springfield.centralesContaminantes().toSet())
+}
