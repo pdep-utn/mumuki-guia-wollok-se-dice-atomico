@@ -30,4 +30,6 @@ test "existe springfield" {
 
 test "inicialmente centralNuclear y centralCarbon son contaminantes" {
   assert.equals(#{centralNuclear, centralCarbon}, springfield.centralesContaminantes().asSet())
+  assert.equals(2, springfield.centralesContaminantes().size())
+
 }
