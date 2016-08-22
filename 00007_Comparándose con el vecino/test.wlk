@@ -68,3 +68,15 @@ test "albuquerque entiende produccionEnergetica" {
 test "existe laRegion" {
   laRegion
 }
+
+test "laRegion entiende principalCiudadProductora" {
+  laRegion.agregarCiudad(springfield)
+  laRegion.agregarCiudad(albuquerque)
+  laRegion.principalCiudadProductora()
+}
+
+test "laRegion entiende principalesCentrales" {
+  laRegion.agregarCiudad(springfield)
+  laRegion.agregarCiudad(albuquerque)
+  laRegion.principalesCentrales()
+}
