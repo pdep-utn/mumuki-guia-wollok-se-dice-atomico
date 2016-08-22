@@ -37,18 +37,15 @@ test "springfield tiene un setter necesidadEnergetica" {
   springfield.necesidadEnergetica(10000)
 }
 
-
 test "si springfield tiene necesidadEnergetica de 1000, no cubre su necesidad" {
    springfield.necesidadEnergetica(1000)
    assert.that(springfield.cubreNecesidad())
 }
 
-
 test "si springfield tiene necesidadEnergetica de 100000, no cubre su necesidad" {
    springfield.necesidadEnergetica(100000)
    assert.that(springfield.cubreNecesidad())
 }
-
 
 test "si springfield tiene necesidadEnergetica de 10, cubre su necesidad" {
    springfield.necesidadEnergetica(10)
