@@ -16,5 +16,5 @@ test "existe centralCarbon" {
 }
 
 test "produccionEnergetica de centralCarbon es inicialmente 900.5" {
-  assert.equals(900.5, centralNuclear.produccionEnergetica())
+  assert.equals(900.5, centralCarbon.produccionEnergetica())
 }
