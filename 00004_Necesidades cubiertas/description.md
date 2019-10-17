@@ -1,4 +1,4 @@
-Springfield tiene una necesidad energética variable, y queremos saber si todas sus centrales cubrieron sus necesidades de suministro: 
+Springfield tiene una necesidad energética variable, y queremos saber si considerando la producción de todas sus centrales se cubren sus necesidades de suministro: 
 
 ```wollok
 //la necesidad de springfield es

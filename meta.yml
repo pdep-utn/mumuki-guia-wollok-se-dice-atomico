@@ -3,7 +3,7 @@ name: Segunda Práctica Objetos y Colecciones
 locale: es
 type: practice
 beta: false
-teacher_info: Basado en https://docs.google.com/document/d/1Thx-haRfLg-3b_69YlGeJ0E6zOoSTVHg_bgmo4YjK5c/edit#
+teacher_info: ''
 language: wollok
 id_format: "%05d"
 order:
@@ -14,3 +14,4 @@ order:
 - 5
 - 6
 - 7
+private: false
